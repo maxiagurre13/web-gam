@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+
+    padding: 0;
+
+    list-style: none;
+
+    box-sizing: border-box;
+    
+    text-decoration: none;
+
+}
+
+a{
+
+    color: aliceblue;
+
+}
+
+h1{
+
+    border: 10px solid white;
+
+    border-radius: 15px;
+
+    font-size: 150%;
+
+    padding: 15px;
+
+    animation: myAnim 1500ms linear 1s infinite alternate forwards;
+
+}
+
+.body{
+
+    background-image: url(../img/back.jpg);
+
+    background-position: center center;
+
+    background-attachment: fixed;
+
+    background-size: cover;
+
+}
+
+.top{
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    flex-direction: column;
+
+}
+
+.title{
+
+    text-transform: uppercase;
+
+    text-align: center;
+
+    font-family: 'Press Start 2P', cursive;
+
+    width: 75%;
+
+    border-color: aliceblue;
+
+    border-top: 25px;
+}
+
+
+
+div{
+
+    color: aliceblue;
+
+}
+
+p{
+
+    text-transform: uppercase;
+
+    text-align: center;
+
+    font-family: 'Press Start 2P', cursive;
+
+    font-size: medium;
+
+    margin-top: 10%;
+
+    margin-bottom: 10%;
+
+    width: 300px;
+
+
+}
+
+@keyframes myAnim {
+	0% {
+		transform: scale(1);
+	}
+
+	100% {
+		transform: scale(0.9);
+	}
+}
